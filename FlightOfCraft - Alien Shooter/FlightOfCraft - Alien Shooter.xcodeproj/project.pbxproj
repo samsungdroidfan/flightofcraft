@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB1A550D2502B26600E9165F /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1A550C2502B26600E9165F /* GameOverScene.swift */; };
+		EB1A550F250359BB00E9165F /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1A550E250359BB00E9165F /* MainMenuScene.swift */; };
+		EB8F51072501E5FE008BAB4F /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB8F51062501E5FE008BAB4F /* theBoldFont.ttf */; };
+		EBD2216C250521A10038897F /* GameModeChooserScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2216B250521A10038897F /* GameModeChooserScene.swift */; };
+		EBD2216E250523800038897F /* HardGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2216D250523800038897F /* HardGameScene.swift */; };
+		EBD221702505E53C0038897F /* HardGameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2216F2505E53C0038897F /* HardGameOverScene.swift */; };
+		EBD221722505EBD00038897F /* HowToPlayGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD221712505EBD00038897F /* HowToPlayGameScene.swift */; };
+		EBF36D6625007B2F00DD7DC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF36D6525007B2F00DD7DC5 /* AppDelegate.swift */; };
+		EBF36D6825007B2F00DD7DC5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EBF36D6725007B2F00DD7DC5 /* GameScene.sks */; };
+		EBF36D6A25007B2F00DD7DC5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF36D6925007B2F00DD7DC5 /* GameScene.swift */; };
+		EBF36D6C25007B2F00DD7DC5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF36D6B25007B2F00DD7DC5 /* GameViewController.swift */; };
+		EBF36D6F25007B2F00DD7DC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF36D6D25007B2F00DD7DC5 /* Main.storyboard */; };
+		EBF36D7125007B2F00DD7DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF36D7025007B2F00DD7DC5 /* Assets.xcassets */; };
+		EBF36D7425007B2F00DD7DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF36D7225007B2F00DD7DC5 /* LaunchScreen.storyboard */; };
+		EBF36D7F25007B2F00DD7DC5 /* FlightOfCraft___Alien_ShooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF36D7E25007B2F00DD7DC5 /* FlightOfCraft___Alien_ShooterTests.swift */; };
+		EBF36D8A25007B2F00DD7DC5 /* FlightOfCraft___Alien_ShooterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF36D8925007B2F00DD7DC5 /* FlightOfCraft___Alien_ShooterUITests.swift */; };
+		EBF36D982500A9D200DD7DC5 /* BulletSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBF36D972500A9D200DD7DC5 /* BulletSound.mp3 */; };
+		EBF36D9A250152EA00DD7DC5 /* ExplosionSoundEffect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBF36D99250152EA00DD7DC5 /* ExplosionSoundEffect.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBF36D7B25007B2F00DD7DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF36D5A25007B2F00DD7DC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF36D6125007B2F00DD7DC5;
+			remoteInfo = "FlightOfCraft - Alien Shooter";
+		};
+		EBF36D8625007B2F00DD7DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF36D5A25007B2F00DD7DC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF36D6125007B2F00DD7DC5;
+			remoteInfo = "FlightOfCraft - Alien Shooter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB1A550C2502B26600E9165F /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		EB1A550E250359BB00E9165F /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		EB8F51062501E5FE008BAB4F /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theBoldFont.ttf; sourceTree = "<group>"; };
+		EBD2216B250521A10038897F /* GameModeChooserScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameModeChooserScene.swift; path = ../GameModeChooserScene.swift; sourceTree = "<group>"; };
+		EBD2216D250523800038897F /* HardGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HardGameScene.swift; sourceTree = "<group>"; };
+		EBD2216F2505E53C0038897F /* HardGameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HardGameOverScene.swift; sourceTree = "<group>"; };
+		EBD221712505EBD00038897F /* HowToPlayGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToPlayGameScene.swift; sourceTree = "<group>"; };
+		EBF36D6225007B2F00DD7DC5 /* FlightOfCraft - Alien Shooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlightOfCraft - Alien Shooter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF36D6525007B2F00DD7DC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBF36D6725007B2F00DD7DC5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EBF36D6925007B2F00DD7DC5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EBF36D6B25007B2F00DD7DC5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EBF36D6E25007B2F00DD7DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBF36D7025007B2F00DD7DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF36D7325007B2F00DD7DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBF36D7525007B2F00DD7DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF36D7A25007B2F00DD7DC5 /* FlightOfCraft - Alien ShooterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FlightOfCraft - Alien ShooterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF36D7E25007B2F00DD7DC5 /* FlightOfCraft___Alien_ShooterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FlightOfCraft___Alien_ShooterTests.swift"; sourceTree = "<group>"; };
+		EBF36D8025007B2F00DD7DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF36D8525007B2F00DD7DC5 /* FlightOfCraft - Alien ShooterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FlightOfCraft - Alien ShooterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF36D8925007B2F00DD7DC5 /* FlightOfCraft___Alien_ShooterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FlightOfCraft___Alien_ShooterUITests.swift"; sourceTree = "<group>"; };
+		EBF36D8B25007B2F00DD7DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF36D972500A9D200DD7DC5 /* BulletSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BulletSound.mp3; sourceTree = "<group>"; };
+		EBF36D99250152EA00DD7DC5 /* ExplosionSoundEffect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ExplosionSoundEffect.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF36D5F25007B2F00DD7DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF36D7725007B2F00DD7DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF36D8225007B2F00DD7DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBF36D5925007B2F00DD7DC5 = {
+			isa = PBXGroup;
+			children = (
+				EBF36D6425007B2F00DD7DC5 /* FlightOfCraft - Alien Shooter */,
+				EBF36D7D25007B2F00DD7DC5 /* FlightOfCraft - Alien ShooterTests */,
+				EBF36D8825007B2F00DD7DC5 /* FlightOfCraft - Alien ShooterUITests */,
+				EBF36D6325007B2F00DD7DC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF36D6325007B2F00DD7DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF36D6225007B2F00DD7DC5 /* FlightOfCraft - Alien Shooter.app */,
+				EBF36D7A25007B2F00DD7DC5 /* FlightOfCraft - Alien ShooterTests.xctest */,
+				EBF36D8525007B2F00DD7DC5 /* FlightOfCraft - Alien ShooterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF36D6425007B2F00DD7DC5 /* FlightOfCraft - Alien Shooter */ = {
+			isa = PBXGroup;
+			children = (
+				EBF36D6B25007B2F00DD7DC5 /* GameViewController.swift */,
+				EB1A550E250359BB00E9165F /* MainMenuScene.swift */,
+				EBD2216B250521A10038897F /* GameModeChooserScene.swift */,
+				EBD221712505EBD00038897F /* HowToPlayGameScene.swift */,
+				EBF36D6925007B2F00DD7DC5 /* GameScene.swift */,
+				EBD2216D250523800038897F /* HardGameScene.swift */,
+				EB1A550C2502B26600E9165F /* GameOverScene.swift */,
+				EBD2216F2505E53C0038897F /* HardGameOverScene.swift */,
+				EBF36D6525007B2F00DD7DC5 /* AppDelegate.swift */,
+				EBF36D6725007B2F00DD7DC5 /* GameScene.sks */,
+				EBF36D6D25007B2F00DD7DC5 /* Main.storyboard */,
+				EBF36D7025007B2F00DD7DC5 /* Assets.xcassets */,
+				EB8F51062501E5FE008BAB4F /* theBoldFont.ttf */,
+				EBF36D7225007B2F00DD7DC5 /* LaunchScreen.storyboard */,
+				EBF36D99250152EA00DD7DC5 /* ExplosionSoundEffect.mp3 */,
+				EBF36D972500A9D200DD7DC5 /* BulletSound.mp3 */,
+				EBF36D7525007B2F00DD7DC5 /* Info.plist */,
+			);
+			path = "FlightOfCraft - Alien Shooter";
+			sourceTree = "<group>";
+		};
+		EBF36D7D25007B2F00DD7DC5 /* FlightOfCraft - Alien ShooterTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF36D7E25007B2F00DD7DC5 /* FlightOfCraft___Alien_ShooterTests.swift */,
+				EBF36D8025007B2F00DD7DC5 /* Info.plist */,
+			);
+			path = "FlightOfCraft - Alien ShooterTests";
+			sourceTree = "<group>";
+		};
+		EBF36D8825007B2F00DD7DC5 /* FlightOfCraft - Alien ShooterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF36D8925007B2F00DD7DC5 /* FlightOfCraft___Alien_ShooterUITests.swift */,
+				EBF36D8B25007B2F00DD7DC5 /* Info.plist */,
+			);
+			path = "FlightOfCraft - Alien ShooterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF36D6125007B2F00DD7DC5 /* FlightOfCraft - Alien Shooter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF36D8E25007B2F00DD7DC5 /* Build configuration list for PBXNativeTarget "FlightOfCraft - Alien Shooter" */;
+			buildPhases = (
+				EBF36D5E25007B2F00DD7DC5 /* Sources */,
+				EBF36D5F25007B2F00DD7DC5 /* Frameworks */,
+				EBF36D6025007B2F00DD7DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlightOfCraft - Alien Shooter";
+			productName = "FlightOfCraft - Alien Shooter";
+			productReference = EBF36D6225007B2F00DD7DC5 /* FlightOfCraft - Alien Shooter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBF36D7925007B2F00DD7DC5 /* FlightOfCraft - Alien ShooterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF36D9125007B2F00DD7DC5 /* Build configuration list for PBXNativeTarget "FlightOfCraft - Alien ShooterTests" */;
+			buildPhases = (
+				EBF36D7625007B2F00DD7DC5 /* Sources */,
+				EBF36D7725007B2F00DD7DC5 /* Frameworks */,
+				EBF36D7825007B2F00DD7DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF36D7C25007B2F00DD7DC5 /* PBXTargetDependency */,
+			);
+			name = "FlightOfCraft - Alien ShooterTests";
+			productName = "FlightOfCraft - Alien ShooterTests";
+			productReference = EBF36D7A25007B2F00DD7DC5 /* FlightOfCraft - Alien ShooterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBF36D8425007B2F00DD7DC5 /* FlightOfCraft - Alien ShooterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF36D9425007B2F00DD7DC5 /* Build configuration list for PBXNativeTarget "FlightOfCraft - Alien ShooterUITests" */;
+			buildPhases = (
+				EBF36D8125007B2F00DD7DC5 /* Sources */,
+				EBF36D8225007B2F00DD7DC5 /* Frameworks */,
+				EBF36D8325007B2F00DD7DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF36D8725007B2F00DD7DC5 /* PBXTargetDependency */,
+			);
+			name = "FlightOfCraft - Alien ShooterUITests";
+			productName = "FlightOfCraft - Alien ShooterUITests";
+			productReference = EBF36D8525007B2F00DD7DC5 /* FlightOfCraft - Alien ShooterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF36D5A25007B2F00DD7DC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = "Sun Games Studio";
+				TargetAttributes = {
+					EBF36D6125007B2F00DD7DC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AFLSGAX5B5;
+						LastSwiftMigration = 1130;
+					};
+					EBF36D7925007B2F00DD7DC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 1130;
+						TestTargetID = EBF36D6125007B2F00DD7DC5;
+					};
+					EBF36D8425007B2F00DD7DC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 1130;
+						TestTargetID = EBF36D6125007B2F00DD7DC5;
+					};
+				};
+			};
+			buildConfigurationList = EBF36D5D25007B2F00DD7DC5 /* Build configuration list for PBXProject "FlightOfCraft - Alien Shooter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBF36D5925007B2F00DD7DC5;
+			productRefGroup = EBF36D6325007B2F00DD7DC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF36D6125007B2F00DD7DC5 /* FlightOfCraft - Alien Shooter */,
+				EBF36D7925007B2F00DD7DC5 /* FlightOfCraft - Alien ShooterTests */,
+				EBF36D8425007B2F00DD7DC5 /* FlightOfCraft - Alien ShooterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF36D6025007B2F00DD7DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF36D6825007B2F00DD7DC5 /* GameScene.sks in Resources */,
+				EB8F51072501E5FE008BAB4F /* theBoldFont.ttf in Resources */,
+				EBF36D7425007B2F00DD7DC5 /* LaunchScreen.storyboard in Resources */,
+				EBF36D7125007B2F00DD7DC5 /* Assets.xcassets in Resources */,
+				EBF36D982500A9D200DD7DC5 /* BulletSound.mp3 in Resources */,
+				EBF36D6F25007B2F00DD7DC5 /* Main.storyboard in Resources */,
+				EBF36D9A250152EA00DD7DC5 /* ExplosionSoundEffect.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF36D7825007B2F00DD7DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF36D8325007B2F00DD7DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF36D5E25007B2F00DD7DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1A550F250359BB00E9165F /* MainMenuScene.swift in Sources */,
+				EBD2216C250521A10038897F /* GameModeChooserScene.swift in Sources */,
+				EBF36D6A25007B2F00DD7DC5 /* GameScene.swift in Sources */,
+				EBF36D6C25007B2F00DD7DC5 /* GameViewController.swift in Sources */,
+				EBD2216E250523800038897F /* HardGameScene.swift in Sources */,
+				EBD221702505E53C0038897F /* HardGameOverScene.swift in Sources */,
+				EBD221722505EBD00038897F /* HowToPlayGameScene.swift in Sources */,
+				EB1A550D2502B26600E9165F /* GameOverScene.swift in Sources */,
+				EBF36D6625007B2F00DD7DC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF36D7625007B2F00DD7DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF36D7F25007B2F00DD7DC5 /* FlightOfCraft___Alien_ShooterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF36D8125007B2F00DD7DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF36D8A25007B2F00DD7DC5 /* FlightOfCraft___Alien_ShooterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBF36D7C25007B2F00DD7DC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF36D6125007B2F00DD7DC5 /* FlightOfCraft - Alien Shooter */;
+			targetProxy = EBF36D7B25007B2F00DD7DC5 /* PBXContainerItemProxy */;
+		};
+		EBF36D8725007B2F00DD7DC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF36D6125007B2F00DD7DC5 /* FlightOfCraft - Alien Shooter */;
+			targetProxy = EBF36D8625007B2F00DD7DC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBF36D6D25007B2F00DD7DC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF36D6E25007B2F00DD7DC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBF36D7225007B2F00DD7DC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF36D7325007B2F00DD7DC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBF36D8C25007B2F00DD7DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBF36D8D25007B2F00DD7DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBF36D8F25007B2F00DD7DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = AFLSGAX5B5;
+				INFOPLIST_FILE = "FlightOfCraft - Alien Shooter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sungames-flightofcraft.FlightOfCraft---Alien-Shooter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBF36D9025007B2F00DD7DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = AFLSGAX5B5;
+				INFOPLIST_FILE = "FlightOfCraft - Alien Shooter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sungames-flightofcraft.FlightOfCraft---Alien-Shooter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBF36D9225007B2F00DD7DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "FlightOfCraft - Alien ShooterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sungames-flightofcraft.FlightOfCraft---Alien-ShooterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightOfCraft - Alien Shooter.app/FlightOfCraft - Alien Shooter";
+			};
+			name = Debug;
+		};
+		EBF36D9325007B2F00DD7DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FlightOfCraft - Alien ShooterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sungames-flightofcraft.FlightOfCraft---Alien-ShooterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightOfCraft - Alien Shooter.app/FlightOfCraft - Alien Shooter";
+			};
+			name = Release;
+		};
+		EBF36D9525007B2F00DD7DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "FlightOfCraft - Alien ShooterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sungames-flightofcraft.FlightOfCraft---Alien-ShooterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FlightOfCraft - Alien Shooter";
+			};
+			name = Debug;
+		};
+		EBF36D9625007B2F00DD7DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FlightOfCraft - Alien ShooterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sungames-flightofcraft.FlightOfCraft---Alien-ShooterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FlightOfCraft - Alien Shooter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF36D5D25007B2F00DD7DC5 /* Build configuration list for PBXProject "FlightOfCraft - Alien Shooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF36D8C25007B2F00DD7DC5 /* Debug */,
+				EBF36D8D25007B2F00DD7DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF36D8E25007B2F00DD7DC5 /* Build configuration list for PBXNativeTarget "FlightOfCraft - Alien Shooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF36D8F25007B2F00DD7DC5 /* Debug */,
+				EBF36D9025007B2F00DD7DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF36D9125007B2F00DD7DC5 /* Build configuration list for PBXNativeTarget "FlightOfCraft - Alien ShooterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF36D9225007B2F00DD7DC5 /* Debug */,
+				EBF36D9325007B2F00DD7DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF36D9425007B2F00DD7DC5 /* Build configuration list for PBXNativeTarget "FlightOfCraft - Alien ShooterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF36D9525007B2F00DD7DC5 /* Debug */,
+				EBF36D9625007B2F00DD7DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBF36D5A25007B2F00DD7DC5 /* Project object */;
+}
